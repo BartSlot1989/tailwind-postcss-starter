@@ -10,6 +10,7 @@
     "@parcel/compressor-gzip": "^2.9.3",
     "@parcel/transformer-sass": "^2.0.0",
     "autoprefixer": "^10.4.16",
+    "daisyui": "^4.0.4",
     "parcel": "^2.0.0",
     "postcss": "^8.4.30",
     "posthtml-doctype": "^1.1.1",
