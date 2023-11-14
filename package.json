@@ -1,7 +1,25 @@
 {
-  "name": "node-starter",
-  "private": true,
+  "license": "MIT",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "watch": "parcel --no-cache src/index.html",
+    "update": "rm -r dist && parcel build src/index.html",
+    "build": "parcel build src/index.html"
+  },
+  "devDependencies": {
+    "@parcel/compressor-brotli": "^2.9.3",
+    "@parcel/compressor-gzip": "^2.9.3",
+    "@parcel/transformer-sass": "^2.0.0",
+    "autoprefixer": "^10.4.16",
+    "parcel": "^2.0.0",
+    "postcss": "^8.4.30",
+    "posthtml-doctype": "^1.1.1",
+    "posthtml-include": "^1.7.4",
+    "posthtml-modules": "^0.9.1",
+    "sass": "^1.69.5",
+    "tailwindcss": "^3.3.3"
+  },
+  "dependencies": {
+    "postcss-apply": "^0.12.0",
+    "tailwindcss-animated": "^1.0.1"
   }
 }
